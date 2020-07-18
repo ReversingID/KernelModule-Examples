@@ -10,7 +10,7 @@ Semua code yang disertakan dalam repositori ini mencakup instruksi kompilasi yan
 
 ### Pengenalan Kernel Module
 
-Kernel Module adalah potongan kode yang memperluas kemampuan kernel Operating System. Sebagian besar operating system mendukung Kernel Module dengan istilah berbeda. Beberapa istilah populer antara lain:
+Kernel Module adalah potongan kode yang memperluas atau memperkaya kemampuan kernel Operating System. Sebagian besar operating system mendukung Kernel Module dengan istilah berbeda. Beberapa istilah populer antara lain:
 
 - `Kernel Loadable` module (kld) untuk `FreeBSD`
 - `Kernel Extension` (kext) untuk `MacOS`
