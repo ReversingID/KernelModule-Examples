@@ -83,16 +83,19 @@ static int event_handler (struct module * m, int evt_type, void *arg)
     switch (evt_type)
     {
         case MOD_LOAD:
-            uprintf("revid: alokasikan 32 chars\n");
+            uprintf("revid: allocate 32 chars\n");
             buffer = malloc (32 * sizeof(char), M_BUFFER, M_WAITOK);
+            uprintf("revid: allocate at %p\n", buffer);
 
-            uprintf("revid: realokasi 256 chars\n");
+            uprintf("revid: reallocate 256 chars\n");
             buffer = realloc (buffer, 256 * sizeof(char), M_BUFFER, M_WAITOK);
+            uprintf("revid: reallocate at %p\n", buffer);
             break;
 
         case MOD_UNLOAD:
-            uprintf("revid: dealokasi alamat memory\n");
-            free(buffer, M_BUFFER);
+            uprintf("revid: deallocate memory\n");
+            if (buffer)
+                free(buffer, M_BUFFER);
             break;
 
         default:
