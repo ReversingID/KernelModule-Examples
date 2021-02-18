@@ -4,6 +4,8 @@ Linux Loadable Kernel Module (LKM)
 
 ## Introduction
 
+For English version, see [README.EN.md](README.EN.md).
+
 `Loadable Kernel Module (LKM)` adalah istilah di Linux untuk menyebut Kernel Module. Sebuah LKM merupakan object code, potongan kode yang dapat dimuat (`load`) dan dibongkar (`unload`) dari kernel pada saat runtime.
 
 Kernel Linux bersifat modular. Modularitas membuat kode kernel dapat dibagi menjadi dua bagian, yaitu kode inti dan modul-modul yang melengkapi. Hal ini menjadikan pengembangan dan integrasi setiap modul menjadi lebih mudah. Pengembangan dapat bersifat independen selama mengikuti kerangka yang telah ditetapkan. Penambahan fungsionalitas kernel pun dapat dilakukan tanpa harus membangun ulang kernel setiap perubahan terjadi.

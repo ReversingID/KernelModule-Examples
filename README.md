@@ -4,6 +4,8 @@ Simple examples for learning Kernel Module of various platform.
 
 ### Selayang Pandang
 
+For English version, see [README.EN.md](README.EN.md).
+
 Repositori ini menghimpun contoh-contoh kode dan kerangka program untuk membangun Kernel Module di beragam platform.
 
 Semua code yang disertakan dalam repositori ini mencakup instruksi kompilasi yang dibutuhkan.
